@@ -59,6 +59,7 @@ import Reload from "../components/Reload"
 import Return from "../components/Return"
 export default function quotes() {
   const random = Math.floor(Math.random() * yahooquotes.length);
+  console.log(random)
 return (
   <>
   
