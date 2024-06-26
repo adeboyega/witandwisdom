@@ -34,23 +34,23 @@ const yahooquotes = [
     content:"Trust the process, even traffic light go green before e red"
   },
   {
-    "author": "Nigerian Proverb",
+    author: "Nigerian Proverb",
     "content": "Rat wey dey chop onion, e must to tear eye."
 },
 {
-    "author": "Unknown",
+    author: "Unknown",
     "content": "Person wey no fit dance dey say di ground dey shake."
 },
 {
-    "author": "Unknown",
+    author: "Unknown",
     "content": "No be wetin dey sweet na im dey kill bee."
 },
 {
-    "author": "Unknown",
+    author: "Unknown",
     "content": "E get as water go take find im level."
 },
 {
-    "author": "Unknown",
+    author: "Unknown",
     "content": "No matter how hot your temper be, e no fit boil beans."
 }
 ]
