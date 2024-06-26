@@ -64,7 +64,7 @@ return (
   <>
   
   <div className={styles.container}>
-    {/* <div className={styles.gradient}></div> */}
+    
       <h1 className='text-3xl'>QUOTES</h1>
       <div className='flex gap-5 flex-col my-5'>
       <p className='text-xl'>{yahooquotes[random].content}</p>
