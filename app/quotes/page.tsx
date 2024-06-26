@@ -18,7 +18,7 @@ export default async function quotes() {
   return (
     <>
     <div className={style.container} >
-        <h1 className="text-3xl my-6">QUOTES</h1>
+        <h1 className="text-3xl my-6">QUOTES😎</h1>
           <p className=" my-4">{data.content}</p>
         <i className=" my-4"><p>{data.author}</p></i>
         <div className="flex gap-4"><Reload /> <Return /></div>

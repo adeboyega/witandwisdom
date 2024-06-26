@@ -65,7 +65,7 @@ return (
   
   <div className={styles.container}>
     
-      <h1 className='text-3xl'>QUOTES</h1>
+      <h1 className='text-3xl'>QUOTES 😒</h1>
       <div className='flex gap-5 flex-col my-5'>
       <p className='text-xl'>{yahooquotes[random].content}</p>
       <i><p>{yahooquotes[random].author === 'Unknown'? yahooquotes[random].author = 'EpaSimple...': `${yahooquotes[random].author} .....`}</p></i>
