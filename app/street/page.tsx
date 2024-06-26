@@ -58,7 +58,7 @@ import styles from './style.module.css'
 import Reload from "../components/Reload"
 import Return from "../components/Return"
 export default function quotes() {
-let random = Math.floor(Math.random()*yahooquotes.length)
+  const random = Math.floor(Math.random() * yahooquotes.length);
 return (
   <>
   
