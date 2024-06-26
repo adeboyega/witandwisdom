@@ -57,7 +57,7 @@ const yahooquotes = [
 ]
 import styles from './style.module.css'
 import Reload from "../components/Reload"
-
+import Return from "../components/Return"
 export default function quotes() {
 let random = Math.floor(Math.random()*yahooquotes.length)
 return (
@@ -73,7 +73,7 @@ return (
       </div>
 
       
-      <Reload  />
+      <div className="flex gap-4"><Reload /> <Return /></div>
       
   </div>
   </>

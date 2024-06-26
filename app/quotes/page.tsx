@@ -6,7 +6,8 @@ interface anotations {
 
 }
 import Reload from "../components/Reload"
-
+import Return from "../components/Return"
+import style from './style.module.css'
 export default async function quotes() {
     
     let res = await fetch ('http://api.quotable.io/random', {cache: "no-store"})
@@ -16,17 +17,11 @@ export default async function quotes() {
     // console.log(imgData)
   return (
     <>
-    <div >
-        <h1 className="text-3xl">QUOTES</h1>
-       <div>
-        <p>''</p>
-        <div>
-          <h1>Quote : </h1>
-          <p>{data.content}</p>
-        </div>
-       </div>
-        <p>{data.author}</p>
-        <Reload />
+    <div className={style.container} >
+        <h1 className="text-3xl my-6">QUOTES</h1>
+          <p className=" my-4">{data.content}</p>
+        <i className=" my-4"><p>{data.author}</p></i>
+        <div className="flex gap-4"><Reload /> <Return /></div>
     </div>
     </>
   )
