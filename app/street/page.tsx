@@ -35,23 +35,23 @@ const yahooquotes = [
   },
   {
     author: "Nigerian Proverb",
-    "content": "Rat wey dey chop onion, e must to tear eye."
+    content: "Rat wey dey chop onion, e must to tear eye."
 },
 {
     author: "Unknown",
-    "content": "Person wey no fit dance dey say di ground dey shake."
+    content: "Person wey no fit dance dey say di ground dey shake."
 },
 {
     author: "Unknown",
-    "content": "No be wetin dey sweet na im dey kill bee."
+    content: "No be wetin dey sweet na im dey kill bee."
 },
 {
     author: "Unknown",
-    "content": "E get as water go take find im level."
+    content: "E get as water go take find im level."
 },
 {
     author: "Unknown",
-    "content": "No matter how hot your temper be, e no fit boil beans."
+    content: "No matter how hot your temper be, e no fit boil beans."
 }
 ]
 import styles from './style.module.css'
