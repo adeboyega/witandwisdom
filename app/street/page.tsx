@@ -1,6 +1,5 @@
 // import React from 'react'
 
-import Structure from '../components/Structure'
 const yahooquotes = [
   {
     author: 'menino',
